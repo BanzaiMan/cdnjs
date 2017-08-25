@@ -12,7 +12,7 @@ cache:
     - node_modules
 notifications:
   email: false
-sudo: false
+sudo: required
 branches:
   only:
     - travis
